@@ -1,0 +1,128 @@
+.site-footer a:hover{
+  color: #007bb6;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    "Footer Footer Footer";
+}
+.Footer {  display: grid;
+  grid-template-columns: 1.2fr 1fr 0.8fr;
+  grid-template-rows: 1fr 1.2fr 0.8fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "about Categories Links"
+    "about Categories Links"
+    "copyrigth copyrigth githubYt";
+  grid-area: Footer;
+  background-color: rgb(58, 58, 58);
+}
+
+.about { 
+  grid-area: about;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.about h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding: 0 5vh 0 5vh;
+  letter-spacing:2px
+}
+.about p {
+  padding: 0 5vh 0 5vh;
+}
+
+.Categories { 
+  grid-area: Categories;
+}
+.Categories h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top: 9.5vh;
+  margin-bottom:5px;
+  padding: 0 5vh 0 5vh;
+  letter-spacing:2px
+}
+.Categories a {
+  color:#737373;
+  text-decoration: none;
+  display: flex;
+  padding-left: 5vh;
+}
+
+.Links { 
+  grid-area: Links;
+}
+.Links h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top: 9.5vh;
+  margin-bottom:5px;
+  padding: 0 5vh 0 5vh;
+  letter-spacing:2px
+}
+.Links a {
+  color:#737373;
+  text-decoration: none;
+  display: flex;
+  padding-left: 5vh;
+}
+.copyrigth { 
+  grid-area: copyrigth;
+  color:#737373;
+}
+.link {
+  margin-left: 5vh;
+}
+.copyrigth a {
+  color:#737373;
+  text-decoration: none;
+}
+
+.githubYt {
+  grid-area: githubYt;
+}
+.git {
+  margin: 2vh 2vh 0 2vh;
+}
+.githubYt a {
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+a.linkedin:hover{
+  background-color:#007bb6
+}
+.customGithub i {
+  position: relative;
+  top: 1vh;
+  left: 0;
+}
+.customGithub:hover {
+  background-color:#26272b;
+}

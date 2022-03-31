@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-assets/css/index.css">
+    <link rel="stylesheet" href="main-assets/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Home | voici les projets</title>
+</head>
+<body>
+<nav role="navigation" class="primary-navigation">
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="PdT.php">Page de test footer</a></li>
+    <li><a href="main-assets/php/index.php">PHP &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="#">Un forum</a></li>
+        <li><a href="#">Site pour des ressources en ligne</a></li>
+      </ul>
+    </li>
+    <li><a href="main-assets/purcss/index.php">Animation en CSS &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="#">Loader triple rond</a></li>
+        <li><a href="#">Effet sur du texte</a></li>
+        <li><a href="paralax-effect-css/index.html">Paralax Effect</a></li>
+        <li><a href="#">Glasmorphing</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Dashboard &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="main-assets/dashboard/index.php">Faire un dashboard de A à Z</a></li>
+      </ul>
+    </li>
+    <li><a href="about.php">About me</a></li>
+    <li><a href="contact.php">Contact me</a></li>
+  </ul>
+</nav>
+<hr>
+  <div class="logo">
+    <img src="main-assets/img/customlogonum2.png" alt="Mon logo">
+  </div>
+<hr>
+  <h1>Concept du site</h1>
+<div class="intro">
+  <div class="card">
+    <p>Hello voici le site qui récapitule tout ce que j'ai pu faire en HTML CSS PHP JS.<br><br>
+      Les projet sont toujours accompagnés de leur code source. Si tu trouve un problème ou une amélioration que je peux faire n'hésite pas a me le faire savoir soit en allant sur mon discord soit en remplissant le formulaire de contact.</p>
+    <p>Il se peut que j'ai laissé des fautes de Français dans ce que tu vois sur le site donc si tu en vois une dis le moi.</p>
+    <p>Tu peux aussi trouver des erreurs dans le code que je te met à disposition sache qu je ne suis qu'un humain et donc que cela peut arriver.</p>
+      <br><br>
+    <button class="learn-more" onclick="window.location.href = 'aboutMe.php';">
+      <span class="circle" aria-hidden="true">
+        <span class="icon arrow"></span>
+      </span>
+      <span class="button-text">Read more</span>
+    </button>
+  </div>
+</div>
+  <!-- Site footer -->
+<foote class="site-footer">
+  <div class="container">
+    <div class="Footer">
+      <div class="about">
+        <h6>About me</h6>
+        <p class="text-justify">Hello je suis un jeune lycéen de 16 ans qui est pationné par le code. Je fais beaucoup de petits projets et cela devient un peu le bazard c'est pourquoi j'ai décider de faire un site pour mettre <strong>TOUS</strong> les mettres. J'ai aussi décider de faire profiter mon experience à ceux qui debutaient (et aux autres aussi) dans le domaine du code.</p>
+      </div>
+      <div class="Categories">
+        <h6>Categories</h6>
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        <a href="">PHP</a>
+        <a href="">Python</a>
+        <a href="">Site utiles</a>
+        <a href="">Templates</a>
+      </div>
+      <div class="Links">
+        <h6>Quick Links</h6>
+        <a href="index.php">Home</a>
+        <a href="contact.php">Contact me</a>
+        <a href="about.php">About me</a>
+        <a href="contact.php">Me rejoindre (prise de contact)</a>
+      </div>
+      <div class="copyrigth">
+        <div class="link">
+          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+            <a href="#">Philibert Gentien</a>.
+          </p>
+        </div>
+      </div>
+      <div class="githubYt">
+        <div class="git">
+          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+          <a class="customGithub" href=""><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
