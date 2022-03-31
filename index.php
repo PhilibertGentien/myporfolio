@@ -13,8 +13,7 @@
 <body>
 <nav role="navigation" class="primary-navigation">
   <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="PdT.php">Page de test footer</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="main-assets/php/index.php">PHP &dtrif;</a>
       <ul class="dropdown">
         <li><a href="#">Un forum</a></li>
@@ -78,9 +77,9 @@
       </div>
       <div class="Links">
         <h6>Quick Links</h6>
-        <a href="index.php">Home</a>
-        <a href="contact.php">Contact me</a>
-        <a href="about.php">About me</a>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact me</a>
+        <a href="about.html">About me</a>
         <a href="contact.php">Me rejoindre (prise de contact)</a>
       </div>
       <div class="copyrigth">
