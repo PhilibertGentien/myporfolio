@@ -48,8 +48,7 @@ if(isset($_POST['contactform']))
 <body>
 <nav role="navigation" class="primary-navigation">
   <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="PdT.php">Page de test footer</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="main-assets/php/index.php">PHP &dtrif;</a>
       <ul class="dropdown">
         <li><a href="#">Un forum</a></li>
@@ -69,8 +68,8 @@ if(isset($_POST['contactform']))
         <li><a href="main-assets/dashboard/index.php">Faire un dashboard de A à Z</a></li>
       </ul>
     </li>
-    <li><a href="about.php">About me</a></li>
-    <li><a href="contact.php">Contact me</a></li>
+    <li><a href="about.html">About me</a></li>
+    <li><a href="contact.html">Contact me</a></li>
   </ul>
 </nav>
   <div class="logo">
